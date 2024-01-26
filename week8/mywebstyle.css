@@ -1,0 +1,58 @@
+
+
+body {
+	background-image: url("IS3BG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+h1, p{
+	color: white;
+}
+
+.small{
+	line-height: 0.8px;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.profilepic {
+
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 100px;
+}
+
+.box1{
+	background-color: black;
+	width: 1350px;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+  	margin: 20px;
+  	display: block;
+  	margin-top: -125px;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+
+.profile1{
+	text-align: center;
+}
+
+.error {
+	color: #FF0000;
+}
+

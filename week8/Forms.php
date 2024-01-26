@@ -1,12 +1,11 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
-<style>
-.error {color: #FF0000;}
-</style>
+  <link rel="stylesheet" href="mywebstyle.css">
 </head>
 <body>  
 
+<div class="center box1 ">
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -86,7 +85,10 @@ function test_input($data) {
   <br><br>
   <input type="submit" name="submit" value="Submit">  
 </form>
+</div>
 
+
+<div>
 <?php
 echo "<h2>Your Input:</h2>";
 echo $name;
@@ -99,6 +101,8 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
+</div>
+
 
 </body>
 </html>
