@@ -4,6 +4,7 @@ body {
 	background-image: url("IS3BG.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: white;
 
 }
 
@@ -56,3 +57,6 @@ h1, p{
 	color: #FF0000;
 }
 
+.spacing{
+	margin-top: 150px;
+}

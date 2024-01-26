@@ -85,10 +85,7 @@ function test_input($data) {
   <br><br>
   <input type="submit" name="submit" value="Submit">  
 </form>
-</div>
 
-
-<div>
 <?php
 echo "<h2>Your Input:</h2>";
 echo $name;
